@@ -23,7 +23,7 @@ header {
     background: #2c2c2c;
     color: #f4f4f4;
     height: 70px;
-    border-bottom: #ffd700 3px solid;
+    border-bottom: #0bacf4 3px solid;
     position: sticky;
     z-index: 999;
     top: 0;
@@ -59,12 +59,12 @@ nav {
 }
 
 header .highlight, header .current a {
-    color: #ffd700;
+    color: #0bacf4;
     font-weight: bold;
 }
 
 header a:hover {
-    color: #ffd700;
+    color: #0bacf4;
 }
 
 #showcase {
@@ -112,7 +112,7 @@ header a:hover {
     background: #2c2c2c;
     padding: 20px;
     margin-bottom: 20px;
-    border-left: 5px solid #ffd700;
+    border-left: 5px solid #0bacf4;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -125,12 +125,12 @@ header a:hover {
     background: #2c2c2c;
     padding: 20px;
     margin-bottom: 20px;
-    border-left: 5px solid #ffd700;
+    border-left: 5px solid #0bacf4;
 }
 
 h2 {
-    color: #ffd700;
-    border-bottom: 2px solid #ffd700;
+    color: #0bacf4;
+    border-bottom: 2px solid #0bacf4;
     padding-bottom: 10px;
 }
 
@@ -147,7 +147,7 @@ h2 {
 
 .small-item {
     background: #2c2c2c;
-    border-bottom: 5px solid #ffd700;
+    border-bottom: 5px solid #0bacf4;
     flex-basis: 45%;
     text-align: center;
     display: flex;
@@ -156,7 +156,7 @@ h2 {
 }
 
 #demo-btn {
-    border: 1px solid #ffd700;
+    border: 1px solid #0bacf4;
     transition: 0.3s ease;
     width: fit-content;
     padding: 5px 10px 5px 10px;
@@ -181,7 +181,7 @@ footer {
 }
 
 a {
-    color: #ffd700;
+    color: #0bacf4;
     text-decoration: none;
     transition: color 0.3s ease;
 }

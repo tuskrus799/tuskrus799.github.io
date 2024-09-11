@@ -23,7 +23,7 @@ header {
     background: #2c2c2c;
     color: #f4f4f4;
     height: 70px;
-    border-bottom: #ffd700 3px solid;
+    border-bottom: #5dcb5d 3px solid;
     position: sticky;
     z-index: 999;
     top: 0;
@@ -59,12 +59,12 @@ nav {
 }
 
 header .highlight, header .current a {
-    color: #ffd700;
+    color: #5dcb5d;
     font-weight: bold;
 }
 
 header a:hover {
-    color: #ffd700;
+    color: #5dcb5d;
 }
 
 #showcase {
@@ -112,25 +112,25 @@ header a:hover {
     background: #2c2c2c;
     padding: 20px;
     margin-bottom: 20px;
-    border-left: 5px solid #ffd700;
+    border-left: 5px solid #5dcb5d;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .skill-item:hover {
     transform: translateY(-5px);
-    box-shadow: 0 5px 15px rgba(255, 215, 0, 0.2);
+    box-shadow: 0 5px 15px rgba(0, 255, 55, 0.2);
 }
 
 .project-item {
     background: #2c2c2c;
     padding: 20px;
     margin-bottom: 20px;
-    border-left: 5px solid #ffd700;
+    border-left: 5px solid #5dcb5d;
 }
 
 h2 {
-    color: #ffd700;
-    border-bottom: 2px solid #ffd700;
+    color: #5dcb5d;
+    border-bottom: 2px solid #5dcb5d;
     padding-bottom: 10px;
 }
 
@@ -147,7 +147,7 @@ h2 {
 
 .small-item {
     background: #2c2c2c;
-    border-bottom: 5px solid #ffd700;
+    border-bottom: 5px solid #5dcb5d;
     flex-basis: 45%;
     text-align: center;
     display: flex;
@@ -156,7 +156,7 @@ h2 {
 }
 
 #demo-btn {
-    border: 1px solid #ffd700;
+    border: 1px solid #60f060;
     transition: 0.3s ease;
     width: fit-content;
     padding: 5px 10px 5px 10px;
@@ -181,7 +181,7 @@ footer {
 }
 
 a {
-    color: #ffd700;
+    color: #5dcb5d;
     text-decoration: none;
     transition: color 0.3s ease;
 }
