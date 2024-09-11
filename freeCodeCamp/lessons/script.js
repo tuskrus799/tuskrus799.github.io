@@ -13,7 +13,7 @@ function loadItems(items) {
 
     const link = document.createElement('a');
     link.id = `demo-btn`;
-    link.href = `https://tuskrus799.github.io//freeCodeCamp/assignments/${item.url}`;
+    link.href = `https://tuskrus799.github.io//freeCodeCamp/lessons/${item.url}`;
     link.textContent = 'Demo';
 
     smallItem.appendChild(title);
