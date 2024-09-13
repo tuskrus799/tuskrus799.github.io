@@ -1,6 +1,6 @@
 // Array of projects
 const itemsData = [
-    { title: 'Sample Title 1', desc: 'Description 1', url: 'blank' },
+    { title: 'Palindrome Checker', desc: 'A simple palindrome checker built from scratch using two pointer algorithm checking', url: 'palindromeChecker' },
     { title: 'Machine Learning Model for Stock Prediction', desc: 'Implemented a machine learning model using Python and TensorFlow to predict stock prices.', url: 'mlStock' }
   ];
 
