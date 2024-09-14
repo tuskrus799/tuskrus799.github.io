@@ -25,7 +25,8 @@ function loadItems(items) {
   // Array of projects
   const itemsData = [
     { title: 'Calorie Counter', url: 'calorieCounter' },
-    { title: 'Rock Paper Scissors', url: 'rockPaperScissors' }
+    { title: 'Rock Paper Scissors', url: 'rockPaperScissors' },
+    { title: 'Date Formatter', url: 'dateFormatter' }
   ];
   
 window.onload = loadItems(itemsData);
