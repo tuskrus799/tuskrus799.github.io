@@ -26,7 +26,8 @@ function loadItems(items) {
   const itemsData = [
     { title: 'Calorie Counter', url: 'calorieCounter' },
     { title: 'Rock Paper Scissors', url: 'rockPaperScissors' },
-    { title: 'Date Formatter', url: 'dateFormatter' }
+    { title: 'Date Formatter', url: 'dateFormatter' },
+    { title: 'Football Team Stat Cards', url: 'footballTeamCards' }
   ];
   
 window.onload = loadItems(itemsData);
