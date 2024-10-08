@@ -27,7 +27,8 @@ function loadItems(items) {
     { title: 'Calorie Counter', url: 'calorieCounter' },
     { title: 'Rock Paper Scissors', url: 'rockPaperScissors' },
     { title: 'Date Formatter', url: 'dateFormatter' },
-    { title: 'Football Team Stat Cards', url: 'footballTeamCards' }
+    { title: 'Football Team Stat Cards', url: 'footballTeamCards' },
+    { title: 'Todo List App', url: 'toDoList' }
   ];
   
 window.onload = loadItems(itemsData);
