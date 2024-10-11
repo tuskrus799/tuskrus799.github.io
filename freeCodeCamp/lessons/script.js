@@ -28,7 +28,8 @@ function loadItems(items) {
     { title: 'Rock Paper Scissors', url: 'rockPaperScissors' },
     { title: 'Date Formatter', url: 'dateFormatter' },
     { title: 'Football Team Stat Cards', url: 'footballTeamCards' },
-    { title: 'Todo List App', url: 'toDoList' }
+    { title: 'Todo List App', url: 'toDoList' },
+    { title: 'Decimal To Binary Converter', url: 'decimalToBinary' }
   ];
   
 window.onload = loadItems(itemsData);
