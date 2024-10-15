@@ -1,15 +1,15 @@
 // Array of projects
 const itemsData = [
     { title: 'Palindrome Checker', desc: 'A simple palindrome checker built from scratch using two pointer algorithm checking', url: 'palindromeChecker' },
-    { title: 'Machine Learning Model for Stock Prediction', desc: 'Implemented a machine learning model using Python and TensorFlow to predict stock prices.', url: 'mlStock' }
+    { title: 'Integer to Roman Numeral Converter', desc: 'An integer number to Roman Numeral converter (0 to 3999), using a Javascript key value pair object.', url: 'intToNumeral' }
   ];
 
 
 document.addEventListener('DOMContentLoaded', (event) => {
     const container = document.getElementById('project-list');
   
-  // Erasing whatever content exists first
-  container.innerHTML = '';
+  // Set up first certificate project section
+  container.innerHTML = `<h2>JS Algorithms and Data Structures Certificate Projects</h2>`;
 
   itemsData.forEach((item, index) => {
     const smallItem = document.createElement('div');
