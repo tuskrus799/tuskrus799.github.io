@@ -29,7 +29,8 @@ function loadItems(items) {
     { title: 'Date Formatter', url: 'dateFormatter' },
     { title: 'Football Team Stat Cards', url: 'footballTeamCards' },
     { title: 'Todo List App', url: 'toDoList' },
-    { title: 'Decimal To Binary Converter', url: 'decimalToBinary' }
+    { title: 'Decimal To Binary Converter', url: 'decimalToBinary' },
+    { title: 'Spam CHecker Mini Tool', url: 'spamChecker' }
   ];
   
 window.onload = loadItems(itemsData);
