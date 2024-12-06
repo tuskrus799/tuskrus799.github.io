@@ -7,7 +7,7 @@ const itemsData = [
 
 
 document.addEventListener('DOMContentLoaded', (event) => {
-    const container = document.getElementById('project-list');
+    const container = document.getElementById('projects');
   
   // Set up first certificate project section
   container.innerHTML = `<h2>JS Algorithms and Data Structures Certificate Projects</h2>`;
