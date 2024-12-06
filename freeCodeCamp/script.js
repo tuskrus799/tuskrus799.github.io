@@ -7,7 +7,7 @@ const projects = [
     {
         title: "Rock Paper Scissors Game",
         description: "Simple webpage to play Rock Paper Scissors against a random decision computer. Made with HTML, CSS, and Javascript",
-        link: "https://tuskrus799.github.io//freeCodeCamp/rockPaperScissors"
+        link: "https://tuskrus799.github.io//freeCodeCamp/rockPaperScissors",
     }
 ];
 

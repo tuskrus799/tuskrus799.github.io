@@ -16,13 +16,13 @@ body {
 .container #branding {
     width: 100%;
     display: inline-block;
-    height: 73px;
+    height: auto;
 }
 
 header {
     background: #2c2c2c;
     color: #f4f4f4;
-    height: 70px;
+    height: auto;
     border-bottom: #0bacf4 3px solid;
     position: sticky;
     z-index: 999;
@@ -105,7 +105,7 @@ header a:hover {
 
 #skills, #projects, #contact {
     margin-top: 20px;
-    padding: 20px 0;
+    padding: 20px 60px;
 }
 
 .skill-item {
